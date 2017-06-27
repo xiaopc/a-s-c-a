@@ -7,7 +7,7 @@ What you need:
 2. include `conf/*.conf` in supervisord.conf
 3. Python 3+
 4. PHP (allow function `exec()`)
-5. If you can't access Google Fonts, you should *~~"deng lu, then bian cheng a mao."~~* change css.
+5. If you can't access Google Fonts, you should *~~"zhu ce, then bian cheng a mao."~~* change css.
 6. I deleted some critical code ;> ,so you should be able to edit by yourself.
 7. You'd like to change `gettime.php` to your secret code rule.
 
