@@ -9,7 +9,7 @@ $filename = "./confs/sk".$result[id].".conf";
 if (file_exists($filename)){ die('{"status":"423"}'); }
 
 $word = '[program: sk'.$result[id].']
-directory = /home/wwwroot/tj1.xpc.im/xkaction
+directory = 
 command = /usr/bin/python3 server.py "'.$result[id].'" "'.$result[pass].'" ';
 
 $counter=0;
