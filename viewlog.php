@@ -3,8 +3,8 @@
 <textarea>
 <?php
 $filename = "./logs/".$getresult[id].".txt";
-if (!file_exists($filename)){ die('{"status":"404"}'); }
-require_once($filename);
+if (!file_exists($filename)){ echo('{"status":"404"}'); }
+else {require_once($filename);}
 ?>
 </textarea>
 
